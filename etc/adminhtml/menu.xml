@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Magexweb_Core::Magexweb" title="Magexweb" module="Magexweb_Core" sortOrder="51" dependsOnModule="Magexweb_Core" resource="Magexweb_Core::Magexweb" />
+        <add id="Magexweb_Core::core" title="Magexweb Core" translate="title" module="Magexweb_Core" parent="Magexweb_Core::Magexweb" sortOrder="11" resource="Magexweb_Core::core" />
+        <add id="Magexweb_Core::coreconfig" title="Configurations" module="Magexweb_Core" sortOrder="12" action="adminhtml/system_config/edit/section/magexwebcore" resource="Magexweb_Core::coreconfig" parent="Magexweb_Core::core"/>
+    </menu>
+</config>

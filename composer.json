@@ -1,0 +1,21 @@
+{
+  "name": "magexweb/module-core",
+  "description": "core module to manage all other modules related to magexweb",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Magexweb",
+      "email": "support@magexweb.com",
+      "homepage": "https://magexweb.com",
+      "role": "Support"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Magexweb\\Core\\": ""
+    }
+  }
+}
