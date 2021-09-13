@@ -35,7 +35,7 @@ php bin/magento setup:di:compile
 
 If you don't want to install via composer, you can use this way. 
 
-- Download [the latest version here](https://github.com/magaxweb/module-core/archive/refs/heads/main.zip) 
+- Download [the latest version here](https://github.com/magexweb/module-core/archive/refs/heads/main.zip) 
 - Extract `module-core-main.zip` file to `app/code/Magexweb/Core` ; You should create a folder path `app/code/Magexweb/Core` if not exist.
 - Go to Magento root folder and run upgrade command line to install `Magexweb_Core`:
 
